@@ -1,0 +1,19 @@
+{
+  "name": "searchbar-reference",
+  "version": "1.0.0",
+  "description": "Simple JS search bar reference project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericmoore123/searchBar-reference.git"
+  },
+  "author": "Eric Moore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericmoore123/searchBar-reference/issues"
+  },
+  "homepage": "https://github.com/ericmoore123/searchBar-reference#readme"
+}
