@@ -5,7 +5,7 @@ const searchInput = document.querySelector("[data-search]");
 let usersData = [];
 
 searchInput.addEventListener("input", (e) => {
-    // Tolowercase to remove case sensitivity during input search process
+    // tolowerCase() to remove case sensitivity during input search process
     const value = e.target.value.toLowerCase();
     usersData.forEach(user => {
         const isVisible = user.name.toLowerCase().includes(value) || user.email.toLowerCase().includes(value); // Filter out header or body by comparing to input value
