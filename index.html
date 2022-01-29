@@ -10,35 +10,23 @@
 <body>
     <div class="search-wrapper">
         <label for="search">Search Users:</label>
-        <input type="search" id="search">
+        <input type="search" id="search" data-search>
     </div>
 
-    <div class="user-cards">
-        <div class="card">
-            <div class="header">
-                Name
-            </div>
-            <div class="body">
-                ericmoore1999@outlook.com
-            </div>
-        </div>
-        <div class="card">
-            <div class="header">
-                Name
-            </div>
-            <div class="body">
-                ericmoore1999@outlook.com
-            </div>
-        </div>
-        <div class="card">
-            <div class="header">
-                Name
-            </div>
-            <div class="body">
-                ericmoore1999@outlook.com
-            </div>
-        </div>
+    <div class="user-cards" data-user-cards-container>
     </div>
+
+    <!-- HTML that doesnt show up on page -->
+    <template data-user-template>
+        <div class="card">
+            <div class="header" data-header>
+                Name
+            </div>
+            <div class="body" data-body>
+                ericmoore1999@outlook.com
+            </div>
+        </div>
+    </template>
     <script src="app.js"></script>
 </body>
 </html>
